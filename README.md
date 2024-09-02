@@ -20,7 +20,7 @@ Sigue los pasos a continuación para configurar el entorno de desarrollo:
 Primero, clona el repositorio del proyecto en tu máquina local:
 
 ```bash
-git clone https://github.com/tu-usuario/html-css-js-para-periodistas.git
+git clone https://github.com/sil7en/html-css-js-course.git
 cd html-css-js-para-periodistas
 ```
 
@@ -59,15 +59,24 @@ Sigue los pasos para configurar PostgreSQL en tu máquina local:
 
 Asegúrate de que PostgreSQL esté corriendo y listo para la integración con el backend en etapas futuras.
 
-### 6. Despliegue en Vercel
+
+### 6. Creación del archivo .env
+
+Para que el entorno funcione correctamente, es necesario crear un archivo `.env` en la raíz del proyecto. En este archivo, deberás definir las variables de entorno necesarias para la configuración del proyecto. Un ejemplo de contenido de `.env` podría ser:
+
+```bash
+DATABASE_URL=postgresql://usuario:contraseña@localhost:5432/html_css_js_db
+```
+
+### 7. Despliegue en Vercel
 
 Este proyecto está configurado para desplegarse automáticamente en [Vercel](https://vercel.com/). Para hacer un despliegue continuo:
 
 1. Conéctate a Vercel y enlaza tu cuenta de GitHub.
-2. Importa el repositorio `html-css-js-para-periodistas` en tu dashboard de Vercel.
+2. Importa el repositorio `html-css-js-course` en tu dashboard de Vercel.
 3. Vercel automáticamente desplegará tu proyecto. Puedes ver el sitio en la URL proporcionada por Vercel.
 
-### 7. Contribuir
+### 8. Contribuir
 
 Si deseas contribuir a este proyecto, sigue los siguientes pasos:
 
@@ -127,8 +136,8 @@ Follow the steps below to set up the development environment:
 First, clone the project repository to your local machine:
 
 ```bash
-git clone https://github.com/your-username/html-css-js-for-journalists.git
-cd html-css-js-for-journalists
+git clone https://github.com/sil7en/html-css-js-course.git
+cd html-css-js-course
 ```
 
 ### 2. Install Dependencies
@@ -166,15 +175,24 @@ Follow these steps to set up PostgreSQL on your local machine:
 
 Make sure PostgreSQL is running and ready for backend integration in future stages.
 
-### 6. Deployment on Vercel
+
+### 6. Create the .env File
+
+To ensure the environment works correctly, create a `.env` file in the root of the project. In this file, you should define the environment variables necessary for configuring the project. An example `.env` content could be:
+
+```bash
+DATABASE_URL=postgresql://user:password@localhost:5432/html_css_js_db
+```
+
+### 7. Deployment on Vercel
 
 This project is set up for automatic deployment on [Vercel](https://vercel.com/). To set up continuous deployment:
 
 1. Connect to Vercel and link your GitHub account.
-2. Import the `html-css-js-for-journalists` repository into your Vercel dashboard.
+2. Import the `html-css-js-course` repository into your Vercel dashboard.
 3. Vercel will automatically deploy your project. You can view the site at the URL provided by Vercel.
 
-### 7. Contributing
+### 8. Contributing
 
 If you want to contribute to this project, follow these steps:
 
